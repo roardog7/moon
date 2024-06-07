@@ -1,0 +1,28 @@
+body {
+    width: 50%;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 10%;
+    padding-left: 20%;
+    color: white;
+    background-color: black;
+}
+
+
+#myText {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  #myText.delayed {
+    animation: fadeIn 0.5s ease-in-out 1s forwards;
+  }
+  
