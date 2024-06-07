@@ -16,9 +16,26 @@ body {
     margin: 10px;
     padding-left: 20px;
     padding-top: 250px;
-    color: white;
+    color: grey;
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    
+  }
+
+  #myTextt {
+    height: 100%;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+    
+    padding-top: 250px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
   }
   
   
@@ -27,7 +44,11 @@ body {
     100% { opacity: 1; }
   }
   
-  #myText.delayed {
-    animation: fadeIn 4.5s ease-in-out 1s forwards;
+  
+  #myTextt.delayed {
+    animation: fadeIn 15s ease-in-out 1s forwards;
   }
   
+  #myText.delayed {
+    animation: fadeIn 2s ease-in-out 1s forwards;
+  }
