@@ -1,12 +1,14 @@
 body {
-    
+    height: 100%;
+    width: 100%; 
     background-color: black;
 }
 
 
 #myText {
+    height: 100%;
     width: 100%;
-    font-size: 110px;
+    font-size: 80px;
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     text-align: center;
