@@ -1,6 +1,7 @@
 body {
     width: 50%;
-    font-size: 50px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
     align-items: center;
     text-align: center;
     position: relative;
@@ -9,7 +10,6 @@ body {
     color: white;
     background-color: black;
 }
-
 
 #myText {
     opacity: 0;
